@@ -17,7 +17,10 @@
 .contanier .navbar {
    width: 100%;
    height: 15%;
-   /* background-color: black; */
+   position: sticky;
+   top: 0%;
+   z-index: 1;
+   background-color: white;
    display: flex;
    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.20)
 }
